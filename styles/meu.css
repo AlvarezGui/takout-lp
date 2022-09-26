@@ -9,10 +9,16 @@
     text-decoration: none;
 }
 
-/*Header👇*/
-
 .cora{
     background-color: #0D121F;
+}
+
+/*Header👇*/
+
+
+
+.borderBaixo{
+   border-bottom: 1px solid #161e33;
 }
 
 .imgTakout{

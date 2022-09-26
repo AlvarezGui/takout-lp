@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Header(){
     return(
         <>
-            <div className="">
+            <div className="borderBaixo">
                 <nav className="navbar navbar-expand-lg  cora nav"> {/* trocar cor bg */}
                     <div className="container-fluid">
                         <a className="navbar-brand cor-letra imgTakout" href=""> <Image src="/Takout.png" width={90} height={20} alt='takout'></Image> </a>
