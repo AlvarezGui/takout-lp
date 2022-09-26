@@ -1,0 +1,24 @@
+*{
+    background-color: #0D121F;
+    scroll-behavior: smooth;
+}
+
+.listinha{
+    justify-content: space-between;
+}
+
+.cora{
+    background-color: #0D121F;
+}
+
+.navLista{
+    margin-left:10px; 
+}
+
+.cor-letra{
+    color: #EAEAEA;   
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
