@@ -1,24 +1,53 @@
 *{
     background-color: #0D121F;
+    color: #EAEAEA;
     scroll-behavior: smooth;
 }
 
-.listinha{
-    justify-content: space-between;
+.cor-letra{
+    color: #EAEAEA;
+    text-decoration: none;
 }
+
+/*Header👇*/
 
 .cora{
     background-color: #0D121F;
 }
 
-.navLista{
-    margin-left:10px; 
+.imgTakout{
+    margin-left: 13%;
 }
 
-.cor-letra{
-    color: #EAEAEA;   
-    margin-right: 20px;
-    text-decoration: none;
+.navLoca{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+.nItem{
+    padding: 10px;
+}
 
+.btnL{
+    background-color: #0D121F;
+    border: none;
+    margin-right: 2%;
+}
+
+.btnI{
+    width: 125px;
+    height: 50px;
+}
+
+/*Body👇*/
+
+.diviTitulo1{
+    margin-top: 242px;
+}
+
+.paragrafo1{
+    margin-top: 24px;
+}
