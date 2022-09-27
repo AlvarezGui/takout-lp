@@ -14,9 +14,6 @@
 }
 
 /*Header👇*/
-
-
-
 .borderBaixo{
    border-bottom: 1px solid #161e33;
 }
@@ -49,11 +46,30 @@
 }
 
 /*Body👇*/
-
 .diviTitulo1{
     margin-top: 242px;
 }
 
 .paragrafo1{
     margin-top: 24px;
+}
+
+.btnCont{
+    margin-top: 40px;
+    width: 260px;
+    height: 52px;
+}
+
+.placeHolder1{
+    background-color: #1F2024;
+    border-radius: 50px;
+    margin-top: 120px;
+    width: 1109px;
+    height: 589px;
+}
+
+/*Solução👇*/
+
+.soluBGC{
+    background-color: #FFFFFF;
 }
