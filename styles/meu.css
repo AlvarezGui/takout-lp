@@ -81,7 +81,7 @@
     height: 1200px;
 }
 
-/*.soluBGC h2{
+.soluBGC h2{
     background-color: #ffffff;
     color: #0C0047;
     position: absolute;
@@ -95,14 +95,16 @@
     position: absolute;
     top: 142%;
     right: 43%;
-}*/
+}
 
 /* cards da solução👇 */
 
 .cardCole{
     background-color: #ffffff;
+    display: flex;
     position: absolute;
-    top: 1500px;
+    top: 1600px;
+    margin-left: 800px;
     
 }
 
@@ -112,6 +114,7 @@
     border-radius: 15px;
     height: 344px;
     width: 276px;
+    margin-left: 40px;
 }
 
   .placeHolderCard{
@@ -137,8 +140,9 @@
   .card-body h6{
     background-color: #ffffff;
     color: #969696;
-    margin-top: 16px;
+    margin-top: 20px;
     margin-left: 10px;
+    margin-bottom: 20px;
   }
 
   .card-body a{
