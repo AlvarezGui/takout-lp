@@ -3,7 +3,7 @@ export default function Meio(){
         <>
         {/* Titulo da págia */}
             <div className="grid text-center diviTitulo1">
-                <h1 className="">Feito simples para</h1>
+                <h1 id="servicos">Feito simples para</h1>
                 <h1 className="text-primary">pequenos negócios.</h1>
             </div>
 
@@ -24,9 +24,25 @@ export default function Meio(){
 
         {/* solução */}
             <div className="soluBGC">
-                <div>
-                    <h2>Nossa solução para o seu negócio</h2>
+
+                {/* Titulo */}
+                <div className="grid text-center">
+                   <h2 id="solucao">Nossa solução para o seu negócio</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div> 
+
+                 {/* soluções */}
+                <div className="cardCole">
+
+                    <div class="card">
+                        <div className="placeHolderCard"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+                            <a href="#">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>    
             </div>          
         </>
     );

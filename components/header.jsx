@@ -18,7 +18,7 @@ export default function Header(){
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="nav navLoca">
                                 <li className="nav-item nItem">
-                                    <a className="cor-letra" href="#serviços">Serviços</a>
+                                    <a className="cor-letra" href="#servicos">Serviços</a>
                                 </li>
                                 <li className="nav-item nItem">
                                     <a className="cor-letra" href="#solucao">Solução</a>
