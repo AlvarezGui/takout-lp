@@ -1,1 +1,1 @@
-https://img.shields.io/github/license/AlvarezGui/takout-lp
+![GitHub](https://img.shields.io/github/license/AlvarezGui/takout-lp)
