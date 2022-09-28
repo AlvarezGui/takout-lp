@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 export default function solucao(){
     return(
         <>     
+        
             <div className="fundoSolu">
 
                 {/* titulo */}

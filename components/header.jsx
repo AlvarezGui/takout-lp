@@ -16,7 +16,7 @@ export default function Header(){
           <Nav className="me-auto">
             <Nav.Link href="#servico"><h6>Serviço</h6></Nav.Link>
             <Nav.Link href="#solucao"><h6>Solução</h6></Nav.Link>
-            <Nav.Link href="#comoFunciona"><h6>Como funciona</h6></Nav.Link>
+            <Nav.Link href="#CF"><h6>Como funciona</h6></Nav.Link>
           </Nav>
 
           <Nav>

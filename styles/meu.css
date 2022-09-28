@@ -59,6 +59,8 @@
     
 .placeHolder1{
     background-color: #1F2024;
+    height: 300px;
+    width: 350px;
     margin: 0 auto;
     margin-top: 80px;
     border-radius: 15px;
@@ -70,7 +72,8 @@
 
 .fundoSolu{
     background-color: #ffff;
-    margin-top: 70px;
+    margin-top: 30px;
+    padding-top: 60px;
 }
 
 .tituloSolu{
@@ -89,6 +92,8 @@
 }
 
 .cardsSolu{
+    margin-top: 66px;
+    padding-bottom: 70px;
     background-color: #ffff;
     display: flex;
     justify-content: space-around;
@@ -106,3 +111,41 @@
     width: 64px;
     height: 64px;
 }
+
+/* Como Funciona(CF)
+         |
+         V   */
+
+.fundoCF{
+    background-color: #017AFF;
+    padding-top: 70px;
+}
+
+.tituloCF{
+    text-align: center;
+    background-color: #017AFF;
+}
+
+.tituloCF h1{
+    text-align: center;
+    background-color: #017AFF;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+.tituloCF p{
+    text-align: center;
+    background-color: #017AFF;
+    color: #ffff;
+}
+
+.placeHolder3{
+    background-color: #ffff;
+    margin: 0 auto;
+    margin-left: 50%;
+    margin-top: 70px;
+    border-radius: 15px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
