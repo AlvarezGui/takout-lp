@@ -9,4 +9,4 @@ Este é o site do Takout, um aplicativo que visa ajudar pequenos empreendedores 
 - Vitor Shimizo (Desing)
 - Pedro Frigo (Desing)
 - Gabriel festa (Marketing)
-- Vinicius Oliveti (Marketing)
+- Vinicius Olivetti (Marketing)
