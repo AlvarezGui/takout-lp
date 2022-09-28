@@ -17,6 +17,9 @@ export default function Meio(){
             <div className="text-center">
                 <button className="btn btnCont btn-primary me-2 cor-letra" type="button">Comece gratuitamente</button>    
             </div> 
+
+          {/* placeHolder */}   
+          <div className="placeHolder1"></div>
     </div>         
         </>
     );

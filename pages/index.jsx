@@ -10,6 +10,7 @@ export default function Home() {
     <div>
         <Header></Header>
         <Meio></Meio>
+        <Solucao></Solucao>
     </div>
   )
 }

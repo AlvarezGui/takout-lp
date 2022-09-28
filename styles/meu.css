@@ -37,22 +37,72 @@
       |
       V   */
 
-    .diviTitulo1{
-        margin-top: 242px;
+.diviTitulo1{
+   margin-top: 242px;
         
-    }
+}
 
-    .diviTitulo1 h1{
-        color: #ffff;
-    }
+.diviTitulo1 h1{
+    color: #ffff;
+}
     
-    .paragrafo1{
-        margin-top: 24px;
-        color: #ffff;
-    }
+.paragrafo1{
+    margin-top: 24px;
+    color: #ffff;
+}
     
-    .btnCont{
-        margin-top: 40px;
-        width: 260px;
-        height: 52px;
-    }
+.btnCont{
+    margin-top: 40px;
+    width: 260px;
+    height: 52px;
+}
+    
+.placeHolder1{
+    background-color: #1F2024;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+/* Solução 
+      |
+      V   */
+
+.fundoSolu{
+    background-color: #ffff;
+    margin-top: 70px;
+}
+
+.tituloSolu{
+    text-align: center;
+    background-color: #ffff;
+}
+
+.tituloSolu h1{
+    color: #0C0047;
+    background-color: #ffff;
+}
+
+.tituloSolu p{
+    color: #969696;
+    background-color: #ffff;
+}
+
+.cardsSolu{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardSoluFundo{
+    background-color: #ffff;
+}
+
+.placeHolder2{
+    background-color: #858585;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 64px;
+    height: 64px;
+}
