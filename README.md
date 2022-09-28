@@ -2,11 +2,11 @@
 # Takout Landing Page
 
 ###### Equipe:
--**Guilherme Loschiavo**
--**João Victor Rozinhole**
--Mateus Fattori
--Gabriel Festa
--Pedro Henrique Frigo
--Vitor Shimizu
--Vinícius Olivetti
--Gabriel Kenta
+- **Guilherme Loschiavo**
+- **João Victor Rozinhole**
+- Mateus Fattori
+- Gabriel Festa
+- Pedro Henrique Frigo
+- Vitor Shimizu
+- Vinícius Olivetti
+- Gabriel Kenta
