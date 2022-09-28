@@ -7,10 +7,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
         <Header></Header>
         <Meio></Meio>
-        <Solucao></Solucao>
     </div>
   )
 }

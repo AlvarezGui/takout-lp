@@ -1,153 +1,58 @@
 *{
     background-color: #0D121F;
-    color: #EAEAEA;
-    scroll-behavior: smooth;
 }
 
-.cor-letra{
-    color: #EAEAEA;
-    text-decoration: none;
+/* Header 
+     |
+     V   */
+.navbar{
+    border-bottom: 1px solid rgb(48, 48, 48);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.cora{
-    background-color: #0D121F;
+.me-auto{
+   margin: 0 auto;
 }
 
-/*Header👇*/
-
-.borderBaixo{
-   border-bottom: 1px solid #161e33;
+.navbar h6{
+    margin-top: 6px;
+    color: #ffff;
 }
 
-.imgTakout{
-    margin-left: 13%;
+.navbar h5{
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #ffff;
 }
 
-.navLoca{
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.nItem{
-    padding: 10px;
-}
-
-.btnL{
-    background-color: #0D121F;
-    border: none;
-    margin-right: 2%;
-}
-
-.btnI{
+.navbar button{
     width: 125px;
     height: 50px;
 }
 
-/*Body👇*/
+/* Serviço 
+      |
+      V   */
 
-.diviTitulo1{
-    margin-top: 242px;
-}
+    .diviTitulo1{
+        margin-top: 242px;
+        
+    }
 
-.paragrafo1{
-    margin-top: 24px;
-}
-
-.btnCont{
-    margin-top: 40px;
-    width: 260px;
-    height: 52px;
-}
-
-.placeHolder1{
-    background-color: #1F2024;
-    border-radius: 50px;
-    margin-top: 120px;
-    width: 1109px;
-    height: 589px;
-    box-shadow: 0 10px 10px rgb(168, 168, 168);
-}
-
-/*Solução👇*/
-
-.soluBGC{
-    background-color: #ffffff;
-    margin-top: -200px;
-    margin-left: -35px;
-    width: 2785px;
-    height: 1200px;
-}
-
-.soluBGC h2{
-    background-color: #ffffff;
-    color: #0C0047;
-    position: absolute;
-    top: 138%;
-    right: 41%;
-}
-
-.soluBGC p{
-    background-color: #ffffff;
-    color: #0C0047;
-    position: absolute;
-    top: 142%;
-    right: 43%;
-}
-
-/* cards da solução👇 */
-
-.cardCole{
-    background-color: #ffffff;
-    display: flex;
-    position: absolute;
-    top: 1600px;
-    margin-left: 800px;
+    .diviTitulo1 h1{
+        color: #ffff;
+    }
     
-}
-
-.card{
-    background-color: #ffffff;
-    border: 1px solid #EAEAEA;
-    border-radius: 15px;
-    height: 344px;
-    width: 276px;
-    margin-left: 40px;
-}
-
-  .placeHolderCard{
-    background-color: #d1d1d1;
-    border-radius: 15px;
-    height: 64px;
-    width: 64px;
-    margin-left: 20px;
-    margin-bottom: 16px;
-    margin-top: 20px;
-  }
-
-  .card-body{
-    background-color: #ffffff;
-  }
-
-  .card-body h5{
-    background-color: #ffffff;
-    color: #343434;
-    margin-left: 10px;
-  }
-
-  .card-body h6{
-    background-color: #ffffff;
-    color: #969696;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-
-  .card-body a{
-    background-color: #ffffff;
-    margin-left: 10px;
-  }
-  
-
+    .paragrafo1{
+        margin-top: 24px;
+        color: #ffff;
+    }
+    
+    .btnCont{
+        margin-top: 40px;
+        width: 260px;
+        height: 52px;
+    }

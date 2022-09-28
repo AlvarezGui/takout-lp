@@ -1,9 +1,10 @@
 export default function Meio(){
     return(
         <>
-        {/* Titulo da págia */}
+    <div className="fundoMeio">
+            {/* Titulo da págia */}
             <div className="grid text-center diviTitulo1">
-                <h1 id="servicos">Feito simples para</h1>
+                <h1 id="servico">Feito simples para</h1>
                 <h1 className="text-primary">pequenos negócios.</h1>
             </div>
 
@@ -15,7 +16,8 @@ export default function Meio(){
         {/* Ó buttão soh */}
             <div className="text-center">
                 <button className="btn btnCont btn-primary me-2 cor-letra" type="button">Comece gratuitamente</button>    
-            </div>    
+            </div> 
+    </div>         
         </>
     );
 }

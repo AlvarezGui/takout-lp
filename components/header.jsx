@@ -1,43 +1,31 @@
 import Image from 'next/image';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+
 
 export default function Header(){
     return(
         <>
-            {/* Navbar em si */}
-            <div className="borderBaixo">
-                <nav className="navbar navbar-expand-lg  cora nav"> {/* trocar cor bg */}
+      <Navbar expand="lg">
+      <Container>
+        <Navbar.Brand href="#home"> <a className="navbar-brand cor-letra imgTakout" href="#home"> <Image src="/Takout.png" width={90} height={20} alt='takout'></Image> </a></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-dark'/>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#servico"><h6>Serviço</h6></Nav.Link>
+            <Nav.Link href="#solucao"><h6>Solução</h6></Nav.Link>
+            <Nav.Link href="#comoFunciona"><h6>Como funciona</h6></Nav.Link>
+          </Nav>
 
-                    {/* Logo do header */}
-                    <div className="container-fluid">
-                        <a className="navbar-brand cor-letra imgTakout" href=""> <Image src="/Takout.png" width={90} height={20} alt='takout'></Image> </a>
-                        <button  className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>    
-                        </button>    
-
-                        {/* Botões de navegação */}
-                        <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="nav navLoca">
-                                <li className="nav-item nItem">
-                                    <a className="cor-letra" href="#servicos">Serviços</a>
-                                </li>
-                                <li className="nav-item nItem">
-                                    <a className="cor-letra" href="#solucao">Solução</a>
-                                </li>
-                                <li className="nav-item nItem">
-                                    <a className="cor-letra" href="#comoFunciona">Como Funciona</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>  
-
-                    {/* Botão login */}
-                    <div className="container-fluid justify-content-end btnDiv">
-                        <button className=" btnL" type="button">Login</button>
-                        <button className="btn btnI btn-primary me-2 cor-letra" type="button">  Iniciar  </button>
-                    </div>
-                
-                </nav>    
-            </div>    
+          <Nav>
+            <Nav.Link href=""><h5>Login</h5></Nav.Link>
+            <Button variant="primary">Iniciar</Button>{' '}
+          </Nav>  
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
         </>
     );
 }
