@@ -7,6 +7,11 @@ O objetivo principal de nossa *Landing Page* é apresentar ao usuário a propost
 
 > Mais informações podem ser achadas no nosso [Briefing](briefing.pdf)
 
+## Informações Técnicas
+Além da *Landing Page*, esse repositório também contém a área que pode ser acessada pela loja para ver os produtos na fila. Essa função utiliza de nosso banco d dados *FireBase* e se conecta diratamente com as aplicações mobile.
+
+para iniciar o projeto utilize  `npm run dev`
+
 ### Equipe Takout
 - **Guilherme Loschiavo**
 - **João Victor Rosinhole**
