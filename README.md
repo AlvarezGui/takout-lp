@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/AlvarezGui/takout-lp?style=flat-square)
+
 # Takout Landing Page
 
 ### Equipe Takout
