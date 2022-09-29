@@ -2,6 +2,9 @@
 
 # Takout Landing Page
 
+## Sobre a Landing Page
+> mais informações podem ser achadas no breafing.pdf
+
 ### Equipe Takout
 - **Guilherme Alvarez**
 - **João Victor Rosinhole**
