@@ -8,7 +8,7 @@ O objetivo principal de nossa *Landing Page* é apresentar ao usuário a propost
 > mais informações podem ser achadas no [Briefing](briefing.pdf)
 
 ### Equipe Takout
-- **Guilherme Alvarez**
+- **Guilherme Loschiavo**
 - **João Victor Rosinhole**
 - Pedro Henrique Frigo
 - Gabriel Festa
