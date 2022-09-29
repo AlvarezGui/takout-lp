@@ -12,7 +12,7 @@ Além da *Landing Page*, esse repositório também contém a área que pode ser 
 
 Para iniciar o projeto utilize  `npm run dev`
 
-### Equipe Takout
+## Equipe Takout
 - **Guilherme Loschiavo**
 - **João Victor Rosinhole**
 - Pedro Henrique Frigo
