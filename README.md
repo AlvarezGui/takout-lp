@@ -3,7 +3,7 @@
 # Takout Landing Page
 
 ## Sobre a Landing Page
-> mais informações podem ser achadas no breafing.pdf
+> mais informações podem ser achadas no [Briefing](briefing.pdf)
 
 ### Equipe Takout
 - **Guilherme Alvarez**
