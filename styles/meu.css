@@ -95,7 +95,6 @@
     margin-top: 66px;
     padding-bottom: 70px;
     background-color: #ffff;
-    display: flex;
     justify-content: space-around;
 }
 
@@ -142,10 +141,33 @@
 .placeHolder3{
     background-color: #ffff;
     margin: 0 auto;
-    margin-left: 50%;
-    margin-top: 70px;
+    margin-left: 40px;
+    margin-top: -80px;
     border-radius: 15px;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    height: 110%;
+    width: 100px;
 }
 
+.flexiona{
+    justify-content: center;
+    background-color: #017AFF;
+    display: flex;
+    margin-top: 70px;
+}
+
+.ladinhoTab{
+    margin-left: 50px;
+}
+
+.navItemMT{
+    margin-top: 10px;
+}
+
+.fundoColCF{
+    background-color: #017AFF;
+}
+
+.fundoColCFFunc{
+    color: #ffff;
+    background-color: #017AFF;
+}
