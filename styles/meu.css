@@ -172,7 +172,6 @@
       |
       V  */
 
-.fundoFooter{
-    background-color: #ffff;
-    padding-top: 70px;
+.topicosFoo a{
+    text-decoration: none;
 }
