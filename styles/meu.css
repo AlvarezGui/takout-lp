@@ -139,13 +139,8 @@
 }
 
 .placeHolder3{
-    background-color: #ffff;
-    margin: 0 auto;
-    margin-left: 40px;
-    margin-top: -80px;
     border-radius: 15px;
-    height: 110%;
-    width: 100px;
+    margin-top: 150px;
 }
 
 .flexiona{
@@ -156,7 +151,7 @@
 }
 
 .ladinhoTab{
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .navItemMT{
@@ -170,4 +165,14 @@
 .fundoColCFFunc{
     color: #ffff;
     background-color: #017AFF;
+}
+
+
+/*  Footer
+      |
+      V  */
+
+.fundoFooter{
+    background-color: #ffff;
+    padding-top: 70px;
 }

@@ -2,6 +2,7 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
+import Image from 'react-bootstrap/Image'
 
 export default function comoFunciona(){
     return(
@@ -49,7 +50,7 @@ export default function comoFunciona(){
 
                 {/* PlaceHolder3 */}
                 <div className="fundoCF">
-                    <div className="placeHolder3"></div> 
+                <img src='/branco.jpg' className='img-fluid shadow-4 placeHolder3' alt='...' />
                 </div>
 
             </div>

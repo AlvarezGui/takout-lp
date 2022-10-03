@@ -1,10 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Header from '../components/header'
 import Meio from '../components/meio'
 import Solucao from '../components/solucao'
 import CF from '../components/como-funciona'
-import styles from '../styles/Home.module.css'
+import Footer from '../components/footer'
+
 
 export default function Home() {
   return (
@@ -13,6 +12,7 @@ export default function Home() {
         <Meio></Meio>
         <Solucao></Solucao>
         <CF></CF>
+        <Footer></Footer>
     </div>
   )
 }
