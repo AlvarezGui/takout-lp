@@ -21,3 +21,5 @@ Para iniciar o projeto utilize  `npm run dev`
 - Vitor Shimizu
 - Vinícius Olivetti
 - Mateus Fattori
+
+> Link: https://takout.herokuapp.com/
