@@ -9,7 +9,7 @@ export default function footer(){
   <footer>
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/takout.png" alt="" width="100" class="mb-3"></img>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/Takout.png" alt="" width="100" class="mb-3"></img>
 
           <p class="font-italic text-light">Takout é um Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 
