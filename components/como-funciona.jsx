@@ -49,7 +49,7 @@ export default function comoFunciona(){
                 </Tab.Container>
 
                 {/* PlaceHolder3 */}
-                <div className="fundoCF">
+                <div className="fundoCFIMG">
                 <img src='/branco.jpg' className='img-fluid shadow-4 placeHolder3' alt='...' />
                 </div>
 

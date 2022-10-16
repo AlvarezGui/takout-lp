@@ -62,7 +62,6 @@
     height: 300px;
     width: 350px;
     margin: 0 auto;
-    margin-top: 80px;
     border-radius: 15px;
 }
 
@@ -143,16 +142,40 @@
     margin-top: 150px;
 }
 
-.flexiona{
-    justify-content: center;
-    background-color: #017AFF;
-    display: flex;
-    margin-top: 70px;
+/*Todas as telas*/
+@media only screen and (min-width: 601px) {
+    .flexiona{
+        justify-content: center;
+        background-color: #017AFF;
+        display: flex;
+        margin-top: 70px;
+    }
+
+    .fundoCFIMG{
+        background-color: #017AFF;
+        padding-top: 70px;
+    }
+
+    .ladinhoTab{
+        margin-left: 30px;
+    }
 }
 
-.ladinhoTab{
-    margin-left: 30px;
+/*Celular espcífico*/
+@media only screen and (max-width: 600px) {
+    .flexiona{
+        justify-content: center;
+        background-color: #017AFF;
+        display: contents;
+    }
+
+    .fundoCFIMG{
+        background-color: #017AFF;
+        margin-top: -100px;
+    }
+
 }
+
 
 .navItemMT{
     margin-top: 10px;
