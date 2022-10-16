@@ -53,27 +53,112 @@
     
 .btnCont{
     margin-top: 40px;
+    margin-bottom: 10px;
     width: 260px;
     height: 52px;
 }
     
-.placeHolder1{
-    background-color: #1F2024;
-    height: 300px;
-    width: 350px;
-    margin: 0 auto;
-    border-radius: 15px;
+@media only screen and (min-width: 375px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 300px;
+        width: 350px;
+        margin-left: 9px;
+        border-radius: 15px;
+        position: absolute;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
 }
+
+@media only screen and (min-width: 667px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 300px;
+        width: 350px;
+        margin-left: 155px;
+        border-radius: 15px;
+        position: absolute;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 300px;
+        width: 350px;
+        margin-left: 210px;
+        border-radius: 15px;
+        position: absolute;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 400px;
+        width: 450px;
+        margin-left: 300px;
+        border-radius: 15px;
+        position: absolute;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 450px;
+        width: 650px;
+        margin-left: 300px;
+        border-radius: 15px;
+        position: absolute;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .placeHolder1{
+        background-color: #1F2024;
+        height: 450px;
+        width: 850px;
+        margin-left: 800px;
+        border-radius: 15px;
+        position: absolute;
+        box-shadow: 5px 5px 18px #0D121F;
+    }
+}
+
 
 /* Solução 
       |
       V   */
-
-.fundoSolu{
-    background-color: #ffff;
-    margin-top: 30px;
-    padding-top: 60px;
+      
+@media only screen and (min-width: 300px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 130px;
+        padding-top: 200px;
+    }
 }
+
+@media only screen and (min-width: 1024px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 150px;
+        padding-top: 320px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 200px;
+        padding-top: 280px;
+    }
+}
+ 
 
 .tituloSolu{
     text-align: center;
