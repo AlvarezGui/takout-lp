@@ -63,9 +63,13 @@
         background-color: #1F2024;
         height: 100px;
         width: 300px;
-        margin-left: 33px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 680px;
+        margin:0 auto;
         border-radius: 15px;
-        position: absolute;
         box-shadow: 5px 5px 18px #0D121F;
     }
 }
@@ -75,9 +79,13 @@
         background-color: #1F2024;
         height: 300px;
         width: 350px;
-        margin-left: 155px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 600px;
+        margin:0 auto;
         border-radius: 15px;
-        position: absolute;
         box-shadow: 5px 5px 18px #0D121F;
     }
 }
@@ -87,9 +95,13 @@
         background-color: #1F2024;
         height: 300px;
         width: 350px;
-        margin-left: 206px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 600px;
+        margin:0 auto;
         border-radius: 15px;
-        position: absolute;
         box-shadow: 5px 5px 18px #0D121F;
     }
 }
@@ -97,11 +109,15 @@
 @media only screen and (min-width: 1024px) {
     .placeHolder1{
         background-color: #1F2024;
-        height: 400px;
-        width: 450px;
-        margin-left: 280px;
+        height: 600px;
+        width: 500px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 600px;
+        margin:0 auto;
         border-radius: 15px;
-        position: absolute;
         box-shadow: 5px 5px 18px #0D121F;
     }
 }
@@ -109,11 +125,15 @@
 @media only screen and (min-width: 1200px) {
     .placeHolder1{
         background-color: #1F2024;
-        height: 450px;
-        width: 650px;
-        margin-left: 300px;
+        height: 600px;
+        width: 500px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 610px;
+        margin:0 auto;
         border-radius: 15px;
-        position: absolute;
         box-shadow: 5px 5px 18px #0D121F;
     }
 }
@@ -123,9 +143,13 @@
         background-color: #1F2024;
         height: 450px;
         width: 850px;
-        margin-left: 800px;
+        position:absolute;
+        bottom: 0px;
+        left:0;
+        right:0;
+        top: 600px;
+        margin:0 auto;
         border-radius: 15px;
-        position: absolute;
         box-shadow: 5px 5px 18px #0D121F;
     }
 }
