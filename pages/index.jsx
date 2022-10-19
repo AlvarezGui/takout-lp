@@ -8,6 +8,9 @@ import Footer from '../components/footer'
 export default function Home() {
   return (
     <div>
+    <head>
+      <title> Takout </title>
+    </head>
         <Header></Header>
         <Meio></Meio>
         <Solucao></Solucao>
