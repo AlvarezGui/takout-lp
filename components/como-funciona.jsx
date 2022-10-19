@@ -20,8 +20,8 @@ export default function comoFunciona(){
 
                 
                 {/* Tabs com FAlA */}                
-                <Tab.Container id="left-tabs-example" defaultActiveKey="first" className='BGCTabs'>
-                    <Row className='fundoColCF flexiona'>
+                <Tab.Container id="Tabelinhas_funcionamento" defaultActiveKey="first" className='CFtab'>
+                    <Row className='fundoColCF flexiona g-0'>
                         <Col sm={3} className="fundoColCF ladinhoTab">
                             <Nav variant="pills" className="flex-column fundoColCF">
                                 <Nav.Item className='fundoColCF'>
@@ -44,7 +44,7 @@ export default function comoFunciona(){
                             </Nav>
                         </Col>
 
-                        <Col sm={3} className='fundoColCF'>
+                        <Col sm={5} className='fundoColCF ladinhoTabIMG'>
                             <Tab.Content className='fundoColCF'>
                                 <Tab.Pane eventKey="first" className='fundoColCF' id='IMG1'>
                                     <Image

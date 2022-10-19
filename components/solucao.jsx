@@ -16,8 +16,8 @@ export default function solucao(){
                 </div>
 
                 <div>
-                    <Row xs={2} md={4} className='cardsSolu g-4'>  
-                        <Card style={{ width: '18rem'}}>
+                    <Row xs={2} md={4} className='cardsSolu g-0'>  
+                        <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Benefício 1</Card.Title>
@@ -28,7 +28,7 @@ export default function solucao(){
                             </Card.Body>
                         </Card>
 
-                        <Card style={{ width: '18rem'}}>
+                        <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Benefício 2</Card.Title>
@@ -39,7 +39,7 @@ export default function solucao(){
                             </Card.Body>
                         </Card>
 
-                        <Card style={{ width: '18rem'}}>
+                        <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Benefício 3</Card.Title>
@@ -50,7 +50,7 @@ export default function solucao(){
                             </Card.Body>
                         </Card>
 
-                        <Card style={{ width: '18rem'}}>
+                        <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Benefício 4</Card.Title>
