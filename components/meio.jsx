@@ -1,3 +1,5 @@
+import Image from 'react-bootstrap/Image';
+
 export default function Meio(){
     return(
         <>
@@ -19,7 +21,14 @@ export default function Meio(){
             </div> 
 
           {/* placeHolder */}   
-          <div className="placeHolder1"></div>
+        <div>
+            <Image
+                src=
+                "/branco.jpg"
+                className='img-fluid placeHolder1'
+            />
+        </div>    
+            
     </div>         
         </>
     );
