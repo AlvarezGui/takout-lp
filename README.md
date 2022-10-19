@@ -3,7 +3,7 @@
 # Takout Landing Page
 
 ## Sobre a Landing Page
-O objetivo principal de nossa *Landing Page* é apresentar ao usuário a proposta de nosso projeto, além de nossos valores como equipe, o que faria-o entnder melhor o porque de usar nosso produto
+O objetivo principal de nossa *Landing Page* é apresentar ao usuário a proposta de nosso projeto, além de nossos valores como equipe, o que o faria entnder melhor o porque de usar nosso produto
 
 > Mais informações podem ser achadas no nosso [Briefing](briefing.pdf)
 
