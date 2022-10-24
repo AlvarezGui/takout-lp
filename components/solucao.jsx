@@ -1,6 +1,6 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 
 
 export default function solucao(){
@@ -18,7 +18,11 @@ export default function solucao(){
                 <div className='divCard'>
                     <Row xs={1} md={3} className='cardsSolu g-0'>  
                         <Card style={{ width: '16rem'}} className='cardSoluMargin'>
-                            <div className='placeHolder2'></div>
+                        <Image
+                            src=
+                            "icones/orgIcon.png"
+                            className='img-fluid shadow-4 placeHolder2'
+                        />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Organização</Card.Title>
                                 <Card.Text className="cardSoluFundo">
@@ -29,7 +33,11 @@ export default function solucao(){
                         </Card>
 
                         <Card style={{ width: '16rem'}} className='cardSoluMargin'>
-                            <div className='placeHolder2'></div>
+                            <Image
+                                src=
+                                "icones/visiIcon.png"
+                                className='img-fluid shadow-4 placeHolder2'
+                            />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Visibilidade</Card.Title>
                                 <Card.Text className="cardSoluFundo">
@@ -40,7 +48,11 @@ export default function solucao(){
                         </Card>
 
                         <Card style={{ width: '16rem'}} className='cardSoluMargin'>
-                            <div className='placeHolder2'></div>
+                            <Image
+                                src=
+                                "icones/faciIcon.png"
+                                className='img-fluid shadow-4 placeHolder2'
+                            />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Fácilidade</Card.Title>
                                 <Card.Text className="cardSoluFundo">
