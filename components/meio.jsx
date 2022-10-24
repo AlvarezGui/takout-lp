@@ -21,7 +21,7 @@ export default function Meio(){
             </div> 
 
           {/* placeHolder */}   
-        <div>
+        <div className="text-center">
             <Image
                 src=
                 "/imgMeio.png"

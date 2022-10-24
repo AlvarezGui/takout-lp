@@ -7,7 +7,7 @@
      V   */
 .navbar{
     border-bottom: 1px solid rgb(48, 48, 48);
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -50,25 +50,45 @@
     margin-top: 24px;
     color: #ffff;
 }
-    
-.btnCont{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 260px;
-    height: 52px;
+  
+
+@media only screen and (max-width: 768px) {
+    .btnCont{
+        margin-top: 20px;
+        margin-bottom: -70px;
+        width: 260px;
+        height: 52px;
+    }
 }
+
+@media only screen and (min-width: 1024px) {
+    .btnCont{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 260px;
+        height: 52px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .btnCont{
+        margin-top: 20px;
+        margin-bottom: -100px;
+        width: 260px;
+        height: 52px;
+    }
+}
+
     
 @media only screen and (min-width: 375px) {
     .placeHolder1{
         background-color: #1F2024;
         height: 100px;
         width: 300px;
-        position:absolute;
+        position: relative;
         bottom: 0px;
-        left:0;
-        right:0;
-        top: 480px;
-        margin:0 auto;
+        right: 0;
+        top: 100px;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
     }
@@ -79,12 +99,10 @@
         background-color: #1F2024;
         height: 300px;
         width: 450px;
-        position:absolute;
+        position: relative;
         bottom: 0px;
-        left:0;
-        right:0;
-        top: 450px;
-        margin:0 auto;
+        right: 0;
+        top: 130px;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
     }
@@ -95,12 +113,11 @@
         background-color: #1F2024;
         height: 300px;
         width: 450px;
-        position:absolute;
+        position: relative;
         bottom: 0px;
-        left:0;
-        right:0;
-        top: 460px;
-        margin:0 auto;
+        right: 0;
+        top: 130px;
+        margin: 0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
     }
@@ -126,12 +143,12 @@
     .placeHolder1{
         background-color: #1F2024;
         height: 600px;
-        width: 500px;
+        width: 700px;
         position:absolute;
         bottom: 0px;
         left:0;
         right:0;
-        top: 410px;
+        top: 550px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -162,8 +179,14 @@
 @media only screen and (min-width: 300px) {
     .fundoSolu{
         background-color: #ffff;
-        margin-top: 130px;
-        padding-top: 200px;
+        padding-top: 130px;
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    .fundoSolu{
+        background-color: #ffff;
+        padding-top: 180px;
     }
 }
 
@@ -171,14 +194,14 @@
     .fundoSolu{
         background-color: #ffff;
         margin-top: 150px;
-        padding-top: 320px;
+        padding-top: 250px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .fundoSolu{
         background-color: #ffff;
-        margin-top: 200px;
+        margin-top: 300px;
         padding-top: 280px;
     }
 }
@@ -257,6 +280,7 @@
 }
 
 .imgCF2{
+    background-color: #017AFF;
     border-radius: 10px;
     margin-top: 5px;
     margin-left: 10px;
