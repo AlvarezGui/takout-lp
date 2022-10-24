@@ -52,7 +52,7 @@
 }
     
 .btnCont{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 260px;
     height: 52px;
@@ -199,18 +199,20 @@
     background-color: #ffff;
 }
 
+.divCard{
+    margin-top: 50px;
+}
+
 .cardsSolu{
-    margin-top: 66px;
     padding-bottom: 70px;
     background-color: #ffff;
     justify-content: space-around;
 }
 
 .cardSoluMargin{
-    margin-top: 10px;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 30px;
 }
 
 .cardSoluFundo{

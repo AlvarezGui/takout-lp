@@ -11,40 +11,12 @@ export default function footer(){
       <div class="row py-4">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/takout.png" alt="" width="100" class="mb-3"></img>
 
-          <p class="font-italic text-light">Takout é um Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <p className="font-italic text-light">Takout é uma startup feita por 8 alunos do ensino médio com a idéia de ajudar pequenos empreendedores com seus negócios.</p>
 
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><FaTwitter /></a></li>
 
-            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><FaFacebookF /></a></li>
-
             <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><FaInstagram /></a></li>
-
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 topicosFoo">
-          <h6 class="font-weight-bold mb-4 text-light">Tópico 1</h6>
-
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-light">Sub</a></li>
-            
-            <li class="mb-2"><a href="#" class="text-light">Sub</a></li>
-
-            <li class="mb-2"><a href="#" class="text-light">Sub</a></li>
-
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 topicosFoo">
-          <h6 class="font-weight-bold mb-4 text-light">Tópico 1</h6>
-
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-light">Sub</a></li>
-            
-            <li class="mb-2"><a href="#" class="text-light">Sub</a></li>
-
-            <li class="mb-2"><a href="#" class="text-light">Sub</a></li>
 
           </ul>
         </div>

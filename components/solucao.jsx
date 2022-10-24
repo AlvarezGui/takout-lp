@@ -12,28 +12,17 @@ export default function solucao(){
                 {/* titulo */}
                 <div className="tituloSolu" id='solucao'>
                     <h1>Nossa solução para o seu negócio</h1>
-                    <p> Lorem Lorem LoremLoremLoremLoremLoremLorem</p>
+                    <p> Algumas das soluções que o nosso projeto proporciona para o seu negócio</p>
                 </div>
 
-                <div>
-                    <Row xs={2} md={4} className='cardsSolu g-0'>  
+                <div className='divCard'>
+                    <Row xs={1} md={3} className='cardsSolu g-0'>  
                         <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
-                                <Card.Title className="cardSoluFundo">Benefício 1</Card.Title>
+                                <Card.Title className="cardSoluFundo">Organização</Card.Title>
                                 <Card.Text className="cardSoluFundo">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                                </Card.Text>
-                                <a variant="primary"    className="cardSoluFundo">Saiba mais</a>
-                            </Card.Body>
-                        </Card>
-
-                        <Card style={{ width: '16rem'}} className='cardSoluMargin'>
-                            <div className='placeHolder2'></div>
-                            <Card.Body className="cardSoluFundo">
-                                <Card.Title className="cardSoluFundo">Benefício 2</Card.Title>
-                                <Card.Text className="cardSoluFundo">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                melhor organização para seu negócio. 
                                 </Card.Text>
                                 <a variant="primary" className="cardSoluFundo">Saiba mais</a>
                             </Card.Body>
@@ -42,9 +31,9 @@ export default function solucao(){
                         <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
-                                <Card.Title className="cardSoluFundo">Benefício 3</Card.Title>
+                                <Card.Title className="cardSoluFundo">Visibilidade</Card.Title>
                                 <Card.Text className="cardSoluFundo">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            Seu negócio terá uma maior visibilidade para os clientes. 
                                 </Card.Text>
                                 <a variant="primary" className="cardSoluFundo">Saiba mais</a>
                             </Card.Body>
@@ -53,13 +42,14 @@ export default function solucao(){
                         <Card style={{ width: '16rem'}} className='cardSoluMargin'>
                             <div className='placeHolder2'></div>
                             <Card.Body className="cardSoluFundo">
-                                <Card.Title className="cardSoluFundo">Benefício 4</Card.Title>
+                                <Card.Title className="cardSoluFundo">Fácilidade</Card.Title>
                                 <Card.Text className="cardSoluFundo">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            Nossa interface é intuitiva. 
                                 </Card.Text>
                                 <a variant="primary" className="cardSoluFundo">Saiba mais</a>
                             </Card.Body>
                         </Card>
+
                     </Row>
                 </div>
             </div>

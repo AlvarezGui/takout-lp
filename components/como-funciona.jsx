@@ -25,20 +25,17 @@ export default function comoFunciona(){
                         <Col sm={3} className="fundoColCF ladinhoTab">
                             <Nav variant="pills" className="flex-column fundoColCF">
                                 <Nav.Item className='fundoColCF'>
-                                    <Nav.Link eventKey="first" href="#IMG1"><h3 className='fundoColCFFunc'>Funcionalidade 1 </h3> <p className='fundoColCFFunc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda in laboriosam est animi numquam voluptate nulla eligendi itaque optio.</p></Nav.Link>
+                                    <Nav.Link eventKey="first" href="#IMG1"><h3 className='fundoColCFFunc'>Estatísticas</h3> <p className='fundoColCFFunc'>Você poderá ver as estatísticas do seu comércio no fim do mês e ver como foram suas vendas.</p></Nav.Link>
                                     
                                 </Nav.Item>
 
                                 <Nav.Item className='fundoColCF navItemMT'>
-                                    <Nav.Link eventKey="second" href="#IMG1"><h3 className='fundoColCFFunc'>Funcionalidade 2 </h3> <p className='fundoColCFFunc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda in laboriosam est animi numquam voluptate nulla eligendi itaque optio.</p></Nav.Link>
+                                    <Nav.Link eventKey="second"><h3 className='fundoColCFFunc'>Região</h3> <p className='fundoColCFFunc'>Detectamos onde o cliente está e de acordo com suas preferéncias identifica os comércios em sua volta.</p></Nav.Link>
                                 </Nav.Item>
 
                                 <Nav.Item className='fundoColCF navItemMT'>
-                                    <Nav.Link eventKey="third"><h3 className='fundoColCFFunc'>Funcionalidade 3 </h3> <p className='fundoColCFFunc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda in laboriosam est animi numquam voluptate nulla eligendi itaque optio.</p></Nav.Link>
-                                </Nav.Item>
-
-                                <Nav.Item className='fundoColCF navItemMT'>
-                                    <Nav.Link eventKey="fourth"><h3 className='fundoColCFFunc'>Funcionalidade 4 </h3> <p className='fundoColCFFunc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda in laboriosam est animi numquam voluptate nulla eligendi itaque optio.</p></Nav.Link>
+                                    <Nav.Link eventKey="third"><h3 className='fundoColCFFunc'>Organização</h3> <p className='fundoColCFFunc'>
+                                    O aplicativo tem um sistema de organização de produtos que tem o objetivo de ajudar os comerciantes.</p></Nav.Link>
                                 </Nav.Item>
 
                             </Nav>
@@ -66,14 +63,6 @@ export default function comoFunciona(){
                                     <Image
                                         src=
                                         "/Takout.png"
-                                        className='img-fluid shadow-4 placeHolder3'
-                                    />
-                                </Tab.Pane>
-
-                                <Tab.Pane eventKey="fourth" className='fundoColCF'>
-                                    <Image
-                                        src=
-                                        "/favicon.ico"
                                         className='img-fluid shadow-4 placeHolder3'
                                     />
                                 </Tab.Pane>

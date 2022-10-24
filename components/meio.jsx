@@ -6,13 +6,13 @@ export default function Meio(){
     <div className="fundoMeio">
             {/* Titulo da págia */}
             <div className="grid text-center diviTitulo1">
-                <h1 id="servico">Feito simples para</h1>
-                <h1 className="text-primary">pequenos negócios.</h1>
+                <h1 id="servico">Onde seu</h1>
+                <h1 className="text-primary">pequeno negócio será visto!</h1>
             </div>
 
         {/* Subtitulo da págia */}
-            <div className="grid text-center paragrafo1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></br> Excepturi cupiditate iusto voluptatem distinctio animi hic ipsa culpa quos sit.</p>
+            <div className="text-center paragrafo1">
+                <p>Administre e desenvolva seu comércio com o nosso aplicativo!</p>
             </div>
 
         {/* Ó buttão soh */}
