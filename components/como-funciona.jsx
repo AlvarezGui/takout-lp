@@ -41,29 +41,29 @@ export default function comoFunciona(){
                             </Nav>
                         </Col>
 
-                        <Col sm={5} className='fundoColCF ladinhoTabIMG'>
+                        <Col sm={5} className='fundoColCF'>
                             <Tab.Content className='fundoColCF'>
                                 <Tab.Pane eventKey="first" className='fundoColCF' id='IMG1'>
                                     <Image
                                         src=
-                                        "/branco.jpg"
-                                        className='img-fluid shadow-4 placeHolder3'
+                                        "/estaImg.png"
+                                        className='img-fluid shadow-4 imgCF2'
                                     />
                                 </Tab.Pane>
 
                                 <Tab.Pane eventKey="second" className='fundoColCF'>
                                     <Image
                                         src=
-                                        "/teste.jpg"
-                                        className='img-fluid shadow-4 placeHolder3'
+                                        "/regiao.png"
+                                        className='img-fluid shadow-4 imgCF2'
                                     />
                                 </Tab.Pane>
 
                                 <Tab.Pane eventKey="third" className='fundoColCF'>
                                     <Image
                                         src=
-                                        "/Takout.png"
-                                        className='img-fluid shadow-4 placeHolder3'
+                                        "/orgImg.png"
+                                        className='img-fluid shadow-4 imgCF2'
                                     />
                                 </Tab.Pane>
             

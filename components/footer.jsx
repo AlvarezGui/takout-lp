@@ -29,7 +29,7 @@ export default function footer(){
 
           <div class="p-1 rounded border bg-white">
             <div class="input-group bg-white">
-              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0"></input>
+              <input type="email" placeholder="Coloque seu email aqui" aria-describedby="button-addon1" class="form-control border-0 shadow-0"></input>
 
               <div class="input-group-append bg-white">
                 <button id="button-addon1" type="submit" class="btn btn-link bg-white"><FaArrowRight className="bg-white"/></button>

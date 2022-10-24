@@ -38,7 +38,7 @@
      V   */
 
 .diviTitulo1{
-   margin-top: 242px;
+   margin-top: 100px;
         
 }
 
@@ -67,7 +67,7 @@
         bottom: 0px;
         left:0;
         right:0;
-        top: 680px;
+        top: 480px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -78,12 +78,12 @@
     .placeHolder1{
         background-color: #1F2024;
         height: 300px;
-        width: 350px;
+        width: 450px;
         position:absolute;
         bottom: 0px;
         left:0;
         right:0;
-        top: 600px;
+        top: 450px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -94,12 +94,12 @@
     .placeHolder1{
         background-color: #1F2024;
         height: 300px;
-        width: 350px;
+        width: 450px;
         position:absolute;
         bottom: 0px;
         left:0;
         right:0;
-        top: 600px;
+        top: 460px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -110,12 +110,12 @@
     .placeHolder1{
         background-color: #1F2024;
         height: 600px;
-        width: 500px;
+        width: 650px;
         position:absolute;
         bottom: 0px;
         left:0;
         right:0;
-        top: 600px;
+        top: 460px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -131,7 +131,7 @@
         bottom: 0px;
         left:0;
         right:0;
-        top: 610px;
+        top: 410px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -147,7 +147,7 @@
         bottom: 0px;
         left:0;
         right:0;
-        top: 600px;
+        top: 450px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -203,6 +203,7 @@
     margin-top: 50px;
 }
 
+
 .cardsSolu{
     padding-bottom: 70px;
     background-color: #ffff;
@@ -219,8 +220,8 @@
     background-color: #ffff;
 }
 
-.placeHolder2{
-    background-color: #ffff;
+.imgCardSolu{
+    background-color: #ffffff;
     border-radius: 10px;
     margin-top: 20px;
     margin-left: 20px;
@@ -255,10 +256,15 @@
     color: #ffff;
 }
 
-.placeHolder3{
-    border-radius: 15px;
-    margin-top: 50px;
+.imgCF2{
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 354px;
+    height: 364px;
 }
+
 
 /*Todas as telas*/
 @media only screen and (min-width: 601px) {
@@ -293,7 +299,6 @@
     }
 
 }
-
 
 .navItemMT{
     margin-top: 10px;

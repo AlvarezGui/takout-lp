@@ -21,7 +21,7 @@ export default function solucao(){
                         <Image
                             src=
                             "icones/orgIcon.png"
-                            className='img-fluid shadow-4 placeHolder2'
+                            className='img-fluid shadow-4 imgCardSolu'
                         />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Organização</Card.Title>
@@ -36,7 +36,7 @@ export default function solucao(){
                             <Image
                                 src=
                                 "icones/visiIcon.png"
-                                className='img-fluid shadow-4 placeHolder2'
+                                className='img-fluid shadow-4 imgCardSolu'
                             />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Visibilidade</Card.Title>
@@ -51,7 +51,7 @@ export default function solucao(){
                             <Image
                                 src=
                                 "icones/faciIcon.png"
-                                className='img-fluid shadow-4 placeHolder2'
+                                className='img-fluid shadow-4 imgCardSolu'
                             />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Fácilidade</Card.Title>

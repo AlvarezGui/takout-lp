@@ -24,7 +24,7 @@ export default function Meio(){
         <div>
             <Image
                 src=
-                "/branco.jpg"
+                "/imgMeio.png"
                 className='img-fluid placeHolder1'
             />
         </div>    
