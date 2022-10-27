@@ -26,7 +26,6 @@ export default function Meio(){
                 src=
                 "/imgMeio.png"
                 className='img-fluid placeHolder1'
-                alt='Imagem takout'
             />
         </div>    
             

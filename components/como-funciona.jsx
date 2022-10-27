@@ -48,7 +48,6 @@ export default function comoFunciona(){
                                         src=
                                         "/estaImg.png"
                                         className='img-fluid shadow-4 imgCF2'
-                                        alt='Imagem estatística takout'
                                     />
                                 </Tab.Pane>
 
@@ -57,7 +56,6 @@ export default function comoFunciona(){
                                         src=
                                         "/regiao.png"
                                         className='img-fluid shadow-4 imgCF2'
-                                        alt='Imagem região takout'
                                     />
                                 </Tab.Pane>
 
@@ -66,7 +64,6 @@ export default function comoFunciona(){
                                         src=
                                         "/orgImg.png"
                                         className='img-fluid shadow-4 imgCF2'
-                                        alt='Imagem organização celular takout'
                                     />
                                 </Tab.Pane>
             

@@ -22,7 +22,6 @@ export default function solucao(){
                             src=
                             "icones/orgIcon.png"
                             className='img-fluid shadow-4 imgCardSolu'
-                            alt='Imagem organização takout'
                         />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Organização</Card.Title>
@@ -38,7 +37,6 @@ export default function solucao(){
                                 src=
                                 "icones/visiIcon.png"
                                 className='img-fluid shadow-4 imgCardSolu'
-                                alt='Imagem visibilidade takout'
                             />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Visibilidade</Card.Title>
@@ -54,7 +52,6 @@ export default function solucao(){
                                 src=
                                 "icones/faciIcon.png"
                                 className='img-fluid shadow-4 imgCardSolu'
-                                alt='Imagem facilidade takout'
                             />
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Fácilidade</Card.Title>

@@ -18,11 +18,6 @@ export default function Header(){
             <Nav.Link href="#solucao"><h6>Solução</h6></Nav.Link>
             <Nav.Link href="#CF"><h6>Como funciona</h6></Nav.Link>
           </Nav>
-
-          <Nav>
-            <Nav.Link href=""><h5>Login</h5></Nav.Link>
-            <Button variant="primary">Iniciar</Button>{' '}
-          </Nav>  
         </Navbar.Collapse>
       </Container>
     </Navbar>
