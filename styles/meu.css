@@ -81,7 +81,7 @@
     }
 }
     
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 300px) {
     .placeHolder1{
         background-color: #1F2024;
         height: 100px;
@@ -293,7 +293,7 @@
     margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 20px;
-    width: 354px;
+    width: 310px;
     height: 364px;
 }
 
