@@ -13,20 +13,26 @@
     width: 100%;
 }
 
-.me-auto{
-   margin: 0 auto;
+@media only screen and (min-width: 992px) {
+    .centroHead{
+        margin: 0 auto;
+        margin-right: 320px;
+    }
 }
+
+@media only screen and (min-width: 1200px) {
+    .centroHead{
+        margin: 0 auto;
+        margin-right: 410px;
+    }
+}
+
 
 .navbar h6{
     margin-top: 6px;
     color: #ffff;
 }
 
-.navbar h5{
-    margin-right: 10px;
-    margin-top: 5px;
-    color: #ffff;
-}
 
 .navbar button{
     width: 125px;
@@ -48,37 +54,17 @@
     
 .paragrafo1{
     margin-top: 24px;
+    margin-bottom: -50px;
     color: #ffff;
-}
-  
-
-@media only screen and (max-width: 768px) {
-    .btnCont{
-        margin-top: 20px;
-        margin-bottom: -70px;
-        width: 260px;
-        height: 52px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .btnCont{
-        margin-top: 20px;
-        margin-bottom: 50px;
-        width: 260px;
-        height: 52px;
-    }
 }
 
 @media only screen and (min-width: 1200px) {
-    .btnCont{
-        margin-top: 20px;
-        margin-bottom: -100px;
-        width: 260px;
-        height: 52px;
+    .paragrafo1{
+        margin-top: 24px;
+        margin-bottom: -90px;
+        color: #ffff;
     }
 }
-
     
 @media only screen and (min-width: 375px) {
     .placeHolder1{
@@ -88,7 +74,7 @@
         position: relative;
         bottom: 0px;
         right: 0;
-        top: 100px;
+        top: 90px;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
     }
@@ -126,13 +112,13 @@
 @media only screen and (min-width: 1024px) {
     .placeHolder1{
         background-color: #1F2024;
-        height: 600px;
-        width: 650px;
+        height: 500px;
+        width: 550px;
         position:absolute;
         bottom: 0px;
         left:0;
         right:0;
-        top: 460px;
+        top: 350px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -148,7 +134,7 @@
         bottom: 0px;
         left:0;
         right:0;
-        top: 550px;
+        top: 400px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -202,7 +188,7 @@
     .fundoSolu{
         background-color: #ffff;
         margin-top: 300px;
-        padding-top: 280px;
+        padding-top: 290px;
     }
 }
  
@@ -309,7 +295,7 @@
     }
 }
 
-/*Celular espcífico*/
+/*Celular específico*/
 @media only screen and (max-width: 600px) {
     .flexiona{
         justify-content: center;
@@ -346,6 +332,62 @@
     text-decoration: none;
 }
 
+@media only screen and (min-width: 992px) {
+    .downloadFoo{
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .ImgIOS{
+        margin-bottom: 20px;
+
+    }
+
+    .ImgAndroid{
+
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .downloadFoo{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ImgIOS{
+        margin-right: 20px;
+        width: 400px;
+        height: 2px;
+    }
+
+    .ImgAndroid{
+        width: 400px;
+        height: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .downloadFoo{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ImgIOS{
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .ImgAndroid{
+        margin-top: 20px;
+        width: 200px;
+    }
+
+}
 
 
 

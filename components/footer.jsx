@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'react-bootstrap/Image';
 import { FaFacebookF , FaTwitter , FaInstagram , FaArrowRight } from 'react-icons/fa'
 
 export default function footer(){
@@ -9,7 +10,7 @@ export default function footer(){
   <footer>
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/takout.png" alt="" width="100" class="mb-3"></img>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/Takout.png" alt="" width="100" class="mb-3"></img>
 
           <p className="font-italic text-light">Takout é uma startup feita por 8 alunos do ensino médio com a idéia de ajudar pequenos empreendedores com seus negócios.</p>
 
@@ -38,6 +39,24 @@ export default function footer(){
             </div>
           </div>
         </div>
+
+        {/* Botões de download */}
+        <div class="col-lg-4 col-md-6 mb-lg-0 downloadFoo">
+
+          {/* IOS loja(Não sei o nome da loja do IOS) */}
+          <div className="ImgIOS">
+            <Image src='/app-apple-btn.svg' className='img-fluid' width={344} height={76}></Image>
+          </div>
+
+          {/* Play store */}
+          <div className="ImgAndroid">
+            <Image src='/app-play-btn.svg' className='img-fluid' width={344} height={76}></Image>
+          </div>
+
+        </div>
+
+          
+
       </div>
     </div>
   </footer>
