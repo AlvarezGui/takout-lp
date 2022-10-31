@@ -27,6 +27,13 @@
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    .centroHead{
+        margin: 0 auto;
+        margin-right: 510px;
+    }
+}
+
 
 .navbar h6{
     margin-top: 6px;
@@ -62,6 +69,14 @@
     .paragrafo1{
         margin-top: 24px;
         margin-bottom: -90px;
+        color: #ffff;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .paragrafo1{
+        margin-top: 24px;
+        margin-bottom: -100px;
         color: #ffff;
     }
 }
@@ -150,7 +165,7 @@
         bottom: 0px;
         left:0;
         right:0;
-        top: 450px;
+        top: 350px;
         margin:0 auto;
         border-radius: 15px;
         box-shadow: 5px 5px 18px #0D121F;
@@ -179,8 +194,8 @@
 @media only screen and (min-width: 1024px) {
     .fundoSolu{
         background-color: #ffff;
-        margin-top: 150px;
-        padding-top: 250px;
+        margin-top: 200px;
+        padding-top: 200px;
     }
 }
 
@@ -192,6 +207,13 @@
     }
 }
  
+@media only screen and (min-width: 1400px) {
+    .fundoSolu{
+        background-color: #ffff;
+        margin-top: 300px;
+        padding-top: 300px;
+    }
+}
 
 .tituloSolu{
     text-align: center;
@@ -340,10 +362,6 @@
 
     .ImgIOS{
         margin-bottom: 20px;
-
-    }
-
-    .ImgAndroid{
 
     }
 
