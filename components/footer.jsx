@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'react-bootstrap/Image';
-import { FaFacebookF , FaTwitter , FaInstagram , FaArrowRight } from 'react-icons/fa'
+import { FaTwitter , FaInstagram , FaArrowRight } from 'react-icons/fa'
 
 export default function footer(){
     return(
@@ -12,7 +12,7 @@ export default function footer(){
       <div class="row py-4">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/Takout.png" alt="" width="100" class="mb-3"></img>
 
-          <p className="font-italic text-light">Takout é uma startup feita por 8 alunos do ensino médio com a idéia de ajudar pequenos empreendedores com seus negócios.</p>
+          <p className="font-italic text-light">Takout é uma startup feita por 8 alunos do ensino médio com a ideia de ajudar pequenos empreendedores com seus negócios.</p>
 
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><FaTwitter /></a></li>

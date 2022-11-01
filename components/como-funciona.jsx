@@ -25,12 +25,12 @@ export default function comoFunciona(){
                         <Col sm={3} className="fundoColCF ladinhoTab">
                             <Nav variant="pills" className="flex-column fundoColCF">
                                 <Nav.Item className='fundoColCF'>
-                                    <Nav.Link eventKey="first" href="#IMG1"><h3 className='fundoColCFFunc'>Estatísticas</h3> <p className='fundoColCFFunc'>Você poderá ver as estatísticas do seu comércio no fim do mês e ver como foram suas vendas.</p></Nav.Link>
+                                    <Nav.Link eventKey="first" href="#IMG1"><h3 className='fundoColCFFunc'>Estatísticas</h3> <p className='fundoColCFFunc'>Você poderá ver as estatísticas do seu comêrcio no fim do mês e ver como foram suas vendas.</p></Nav.Link>
                                     
                                 </Nav.Item>
 
                                 <Nav.Item className='fundoColCF navItemMT'>
-                                    <Nav.Link eventKey="second"><h3 className='fundoColCFFunc'>Região</h3> <p className='fundoColCFFunc'>Detectamos onde o cliente está e de acordo com suas preferéncias identifica os comércios em sua volta.</p></Nav.Link>
+                                    <Nav.Link eventKey="second"><h3 className='fundoColCFFunc'>Região</h3> <p className='fundoColCFFunc'>Detectamos onde o cliente está e de acordo com suas preferências identifica os comércios em sua volta.</p></Nav.Link>
                                 </Nav.Item>
 
                                 <Nav.Item className='fundoColCF navItemMT'>

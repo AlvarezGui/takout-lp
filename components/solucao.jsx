@@ -11,7 +11,7 @@ export default function solucao(){
 
                 {/* titulo */}
                 <div className="tituloSolu" id='solucao'>
-                    <h1>Nossa solução para o seu negócio</h1>
+                    <h1>Nossas vantagens para o seu negócio</h1>
                     <p> Algumas das soluções que o nosso projeto proporciona para o seu negócio</p>
                 </div>
 
@@ -28,7 +28,6 @@ export default function solucao(){
                                 <Card.Text className="cardSoluFundo">
                                 melhor organização para seu negócio. 
                                 </Card.Text>
-                                <a variant="primary" className="cardSoluFundo">Saiba mais</a>
                             </Card.Body>
                         </Card>
 
@@ -43,7 +42,6 @@ export default function solucao(){
                                 <Card.Text className="cardSoluFundo">
                             Seu negócio terá uma maior visibilidade para os clientes. 
                                 </Card.Text>
-                                <a variant="primary" className="cardSoluFundo">Saiba mais</a>
                             </Card.Body>
                         </Card>
 
@@ -58,7 +56,6 @@ export default function solucao(){
                                 <Card.Text className="cardSoluFundo">
                             Nossa interface é intuitiva. 
                                 </Card.Text>
-                                <a variant="primary" className="cardSoluFundo">Saiba mais</a>
                             </Card.Body>
                         </Card>
 
