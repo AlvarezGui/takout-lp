@@ -26,7 +26,7 @@ export default function solucao(){
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Organização</Card.Title>
                                 <Card.Text className="cardSoluFundo">
-                                melhor organização para seu negócio. 
+                                Uma melhor administração para seu negócio. 
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -40,7 +40,7 @@ export default function solucao(){
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Visibilidade</Card.Title>
                                 <Card.Text className="cardSoluFundo">
-                            Seu negócio terá uma maior visibilidade para os clientes. 
+                            Seu negócio será mais divulgado para os clientes. 
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -54,7 +54,7 @@ export default function solucao(){
                             <Card.Body className="cardSoluFundo">
                                 <Card.Title className="cardSoluFundo">Fácilidade</Card.Title>
                                 <Card.Text className="cardSoluFundo">
-                            Nossa interface é intuitiva. 
+                            Nossa interface é intuitiva e fácil de se entender. 
                                 </Card.Text>
                             </Card.Body>
                         </Card>
